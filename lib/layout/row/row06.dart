@@ -19,10 +19,11 @@ class MyRowHome extends StatelessWidget {
         title: Text("Layout - Row"),
       ),
       body: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           Icon(Icons.star, size: 50, color: Colors.red),
-          Icon(Icons.star, size: 50, color: Colors.blue),
-          Icon(Icons.star, size: 50, color: Colors.green)
+          Icon(Icons.star, size: 50, color: Colors.green),
+          Icon(Icons.star, size: 50, color: Colors.blue)
         ],
       ),
     );
